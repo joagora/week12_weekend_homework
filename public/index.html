@@ -5,11 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Weather App</title>
+  <link rel="stylesheet" href="css/main.css">
   <script type="text/javascript" src="js/bundle.js">
 
   </script>
 </head>
 <body>
-
+  <form id="search">
+    <label for="search-bar"></label>
+    <input type="text" name="search-bar" id="search-bar" placeholder="Type in a city">
+    <input type="submit" value="Search"></input>
+  </form>
+  <div id="weather">
+    <header id="city"></header>
+    <ul id="weatherDetails">
+      
+    </ul>
+  </div>
 </body>
 </html>
